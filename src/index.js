@@ -5,6 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <h1 className="hello">Hello world</h1>
+//   </React.StrictMode>
+// ); // does not work when we have 2 renders
+
+// root.render(
+//   <React.StrictMode>
+//     <h1 className="hello">Hello Jamal</h1>
+//   </React.StrictMode>
+// );
 root.render(
   <React.StrictMode>
     <App />
